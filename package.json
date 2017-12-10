@@ -1,0 +1,29 @@
+{
+  "name": "logit",
+  "version": "1.0.0",
+  "description": "接收并且记录来自远端发送的日志的一个小服务，用于非调试模式日志无法查看问题",
+  "main": "js/Server.js",
+  "scripts": {
+    "tsc": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/connect": "^3.4.31",
+    "@types/node": "^7.0.48",
+    "@types/ws": "^3.2.1",
+    "typescript": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiYuanjun-Tim/logit.git"
+  },
+  "author": "史元君",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShiYuanjun-T≤im/logit/issues"
+  },
+  "homepage": "https://github.com/ShiYuanjun-Tim/logit#readme",
+  "dependencies": {
+    "connect": "^3.6.5",
+    "ws": "^3.3.2"
+  }
+}
